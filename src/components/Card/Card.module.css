@@ -1,0 +1,71 @@
+.cardContainer {
+  width: 30px;
+  height: 40px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5; /* Agrega esta línea para hacer el contenedor medio transparente */
+}
+
+@media (min-width: 576px) {
+  .cardContainer {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardContainer {
+    width: 350px;
+    height: 450px;
+  }
+}
+.cardContainer:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  opacity: 1; /* Aumenta la opacidad cuando se pasa el mouse por encima */
+}
+
+.h2 {
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #28dbc0;
+  transition-delay: all 1s ease-in-out;
+  opacity: 9;
+}
+.cardContainer,
+.h2:hover {
+  opacity: 1;
+}
+
+.cardContainer,
+img {
+  width: 290px;
+  height: 55%;
+  border-radius: 10px;
+}
+
+.cardContainer {
+  border-radius: 2em;
+  width: 320px;
+  height: 500px;
+  background-color: #ffff32;
+  margin: 1em;
+  overflow: hidden;
+}
+
+.cardContainer:hover {
+  transform: scale(1.1);
+  background-color: #28dbc0;
+  transition: transform 0.5s;
+  transition: background-color 1s;
+}
+
+.cardContainer {
+  color: #2e2d2d;
+  font-weight: 600px;
+  font-size: 1em;
+}

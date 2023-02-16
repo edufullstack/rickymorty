@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(11, 223, 43, 0.3);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav:hover {
+  background-color: rgba(11, 223, 43, 1);
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnCartoon {
+  background-color: #ffd700;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.btnCartoon:hover {
+  background-color: #000000;
+  color: #ffd700;
+}

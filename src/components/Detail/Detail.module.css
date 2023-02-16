@@ -1,0 +1,51 @@
+.div {
+  background-color: #1c1c1e;
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: min-content;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #fff;
+  color: #1c1c1e;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #1c1c1e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  margin: 0;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  width: 290px;
+  height: 55%;
+  border-radius: 10px;
+}

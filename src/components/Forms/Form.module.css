@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.form {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 20px 20px 30px rgba(28, 214, 112, 0.3);
+  background-image: url(https://skoomy.com/wp-content/uploads/2020/04/Skoomy-rick-and-morty-001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.form:hover {
+  box-shadow: 20px 20px 30px rgba(28, 214, 112, 0.5);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.form input[type='text'],
+.form input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(11, 223, 43, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.form input[type='text']:focus,
+.form input[type='password']:focus {
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50, 0 0 30px #4caf50;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #888888;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50, 0 0 30px #4caf50;
+}

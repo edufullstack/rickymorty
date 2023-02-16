@@ -1,0 +1,17 @@
+.aboutContainer {
+  background-color: #052242;
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  margin: 0;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
