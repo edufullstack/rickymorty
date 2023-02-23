@@ -28,11 +28,11 @@ function Detail() {
         <Link to='/home'> Home</Link>
       </button>
 
-      <h2 className={style.h2}>{character?.name}</h2>
-      <p className={style.p}>{character?.status}</p>
-      <p className={style.p}>{character?.specie}</p>
-      <p className={style.p}>{character?.gender}</p>
-      <p className={style.p}>{character?.origin?.name}</p>
+      <h2 className={style.h2}>Name: {character?.name}</h2>
+      <p className={style.p}>Status: {character?.status}</p>
+      <p className={style.p}>Specie: {character?.specie}</p>
+      <p className={style.p}>Gender: {character?.gender}</p>
+      <p className={style.p}>Origin: {character?.origin?.name}</p>
       <img className={style.img} src={character.image} alt={character.name} />
     </div>
   )

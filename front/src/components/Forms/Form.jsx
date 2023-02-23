@@ -23,7 +23,7 @@ const Form = (props) => {
       <form className={style.form} onSubmit={handleSubmit}>
         <label htmlFor='username'>Username</label>
         <input
-          classname={style.formInput}
+          className={style.formInput}
           autoComplete='off'
           type='text'
           name='username'
