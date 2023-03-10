@@ -15,6 +15,9 @@ function Nav({ onSearch }) {
       <Link className={style.btnCartoon} to='/about'>
         About
       </Link>
+      <Link className={style.btnCartoon} to='/favorites'>
+        Favorites
+      </Link>
       <SearchBar onSearch={onSearch} />
     </div>
   )
