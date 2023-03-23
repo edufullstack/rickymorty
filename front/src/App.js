@@ -27,6 +27,10 @@ function App() {
       navigate('/home')
     }
   }
+  const skip = () => {
+    setAccess(true)
+    navigate('/home')
+  }
 
   useEffect(() => {
     !access && navigate('/')
@@ -56,7 +60,7 @@ function App() {
   return (
     <div className='App' style={{ padding: '25px' }}>
       {location.pathname === '/' ? (
-        <Form login={login} />
+        <Form login={login} skip={skip} />
       ) : (
         <Nav onSearch={onSearch} />
       )}

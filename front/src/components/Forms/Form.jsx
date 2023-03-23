@@ -38,9 +38,12 @@ const Form = (props) => {
           value={userData.password}
           onChange={handleInputChange}
         />
-        {errors.username && <p>{errors.password}</p>}
+        {errors.password && <p>{errors.password}</p>}
         <button className={style.btn} onChange={handleSubmit}>
           Submit
+        </button>
+        <button className={style.btn} onClick={() => props.skip()}>
+          Skip
         </button>
       </form>
     </div>
