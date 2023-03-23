@@ -23,7 +23,7 @@ export default function Card({ onClose, id, name, gender, species, image }) {
       dispatch(deleteFavorite(id))
     } else {
       setIsFav(true)
-      dispatch(addFavorite({ onClose, id, name, gender, species, image }))
+      dispatch(addFavorite({ id, name, gender, species, image }))
     }
   }
 
